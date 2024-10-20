@@ -25,7 +25,7 @@ This script can be useful for system administrators, developers, or anyone who n
    First, clone this GitHub repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/NawPete/Backup-Script.git
    ```
 
 2. **Navigate to the Directory**
@@ -33,7 +33,7 @@ This script can be useful for system administrators, developers, or anyone who n
    Move into the directory containing the script:
 
    ```bash
-   cd your-repo-name
+   cd backup
    ```
 
 3. **Modify the Source and Backup Paths**
@@ -97,7 +97,7 @@ To automate the script using **cron** on Linux or macOS, follow these steps:
 
    - `0 2 * * *` – This means the script will run at 2:00 AM every day.
    - `/usr/bin/python3` – This is the path to your Python 3 interpreter. You can verify the correct path by running `which python3` in your terminal.
-   - `/path/to/your-repo-name/backup_script.py` – This should be the full path to your backup script.
+   - `/path/to/backup/backup_script.py` – This should be the full path to your backup script.
 
 3. **Save and exit**
 
